@@ -1,0 +1,82 @@
+{{ define "main" }}
+<section class="section rounded-3">
+  <div class="row row-cols-1 row-cols-md-2 justify-content-center align-items-top">
+    <div class="col col-sm-12 col-lg-8 col-xl-7">
+      <div class="border border-3 rounded-pill"><img class="img-fluid w-100 blur-up rounded-pill lazyload ls-is-cached"
+          src="/cover.png" width="1360" height="765"
+          data-srcset="/cover.png 480w,/cover.png 640w,/cover.png 800w,/cover.png 1360w" data-sizes="1360px"
+          alt="Welkom" data-src="/cover.png" loading="eager" title="Adilhyz" sizes="1360px"
+          srcset="/cover.png 480w,/cover.png 640w,/cover.png 800w,/cover.png 1360w">
+      </div>
+    </div>
+    <div class="col col-sm-12">
+      <h1 class="mt-1 mb-4">サンレイ<span class="title-dots">.</span></h1>
+      <!--p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, quaerat numquam. Dolores esse
+        nobis quasi adipisci perspiciatis iste omnis, minima repudiandae ullam maiores culpa unde quisquam deleniti
+        provident veniam impedit!
+      </p-->
+      <p class="mb-3">{{ i18n "desc" }}</p>
+      <p class="lead text-muted mb-4"><a href="about/">{{ i18n "more" }}</a></p>
+      <a class="btn btn-primary btn-lg px-4 mb-2 fw-bold" href="blog/" role="button">Blog</a>
+      <a class="btn btn-outline-secondary btn-lg mb-2 px-4" href="projects/" role="button">{{ i18n "projects" }}</a>
+    </div>
+  </div>
+  <!-- <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1>{{ .Title }}</h1>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3"
+        href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}guides/example-guide/"
+        role="button">{{ i18n "get_started" }}</a>
+      {{ .Content }}
+    </div>
+  </div> -->
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+{{ if site.Params.doks.backgroundDots -}}
+<div class="d-flex justify-content-start">
+  <div class="bg-dots"></div>
+</div>
+{{ end -}}
+{{ if eq $.Site.Language.LanguageName "Indonesian" . "English" }}
+<section class="section section-md section-features">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4">Update content</h2>
+        <p>Edit <code>content/_index.md</code> to see this page change.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Add new content</h2>
+        <p>Add Markdown files to <code>content</code> to create new pages.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Configure your site</h2>
+        <p>Edit your config in <code>config/_default/hyas/doks.toml</code>.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Read the docs</h2>
+        <p>Learn more in the <a href="https://getdoks.org/">Docs</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ define "sidebar-footer" }}
+{{ if site.Params.doks.sectionFooter -}}
+<section class="section section-md container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-7">
+      <h2 class="mt-2">Adilhyz</h2>
+      <a class="btn btn-primary rounded-pill px-4 my-2" href="/about/" role="button">{{ i18n "get_started" }}</a>
+    </div>
+  </div>
+</section>
+{{ end -}}
+{{ end }}
