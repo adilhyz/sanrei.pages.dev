@@ -1,25 +1,25 @@
 # mounts
-## archetypes
-# [[mounts]]
-#   source = "node_modules/@hyas/doks-core/archetypes"
-#   target = "archetypes"
+# archetypes
+[[mounts]]
+  source = "node_modules/@hyas/doks-core/archetypes"
+  target = "archetypes"
 
 [[mounts]]
   source = "archetypes"
   target = "archetypes"
 
-## assets
-# [[mounts]]
-#   source = "node_modules/@hyas/core/assets"
-#   target = "assets"
+# assets
+[[mounts]]
+  source = "node_modules/@hyas/core/assets"
+  target = "assets"
 
-# [[mounts]]
-#   source = "node_modules/@hyas/images/assets"
-#   target = "assets"
+[[mounts]]
+  source = "node_modules/@hyas/images/assets"
+  target = "assets"
 
-# [[mounts]]
-#   source = "node_modules/@hyas/doks-core/assets"
-#   target = "assets"
+[[mounts]]
+  source = "node_modules/@hyas/doks-core/assets"
+  target = "assets"
 
 [[mounts]]
   source = "node_modules/@tabler/icons/icons"
@@ -29,58 +29,58 @@
   source = "assets"
   target = "assets"
 
-## content
+# content
 [[mounts]]
   source = "content"
   target = "content"
 
-## data
-# [[mounts]]
-#   source = "node_modules/@hyas/doks-core/data"
-#   target = "data"
+# data
+[[mounts]]
+  source = "node_modules/@hyas/doks-core/data"
+  target = "data"
 
 [[mounts]]
   source = "data"
   target = "data"
 
-## i18n
-# [[mounts]]
-#   source = "node_modules/@hyas/doks-core/i18n"
-#   target = "i18n"
+# i18n
+[[mounts]]
+  source = "node_modules/@hyas/doks-core/i18n"
+  target = "i18n"
 
 [[mounts]]
   source = "i18n"
   target = "i18n"
 
-## layouts
-# [[mounts]]
-#   source = "node_modules/@hyas/core/layouts"
-#   target = "layouts"
+# layouts
+[[mounts]]
+  source = "node_modules/@hyas/core/layouts"
+  target = "layouts"
 
-# [[mounts]]
-#   source = "node_modules/@hyas/seo/layouts"
-#   target = "layouts"
+[[mounts]]
+  source = "node_modules/@hyas/seo/layouts"
+  target = "layouts"
 
-# [[mounts]]
-#   source = "node_modules/@hyas/images/layouts"
-#   target = "layouts"
+[[mounts]]
+  source = "node_modules/@hyas/images/layouts"
+  target = "layouts"
 
-# [[mounts]]
-#   source = "node_modules/@hyas/doks-core/layouts"
-#   target = "layouts"
+[[mounts]]
+  source = "node_modules/@hyas/doks-core/layouts"
+  target = "layouts"
 
-# [[mounts]]
-#   source = "node_modules/@hyas/inline-svg/layouts"
-#   target = "layouts"
+[[mounts]]
+  source = "node_modules/@hyas/inline-svg/layouts"
+  target = "layouts"
 
 [[mounts]]
   source = "layouts"
   target = "layouts"
 
-## static
-# [[mounts]]
-#   source = "node_modules/@hyas/doks-core/static"
-#   target = "static"
+# static
+[[mounts]]
+  source = "node_modules/@hyas/doks-core/static"
+  target = "static"
 
 [[mounts]]
   source = "static"
