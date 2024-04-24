@@ -1,0 +1,65 @@
+[404_text]
+other = "Halaman yang Anda cari tidak ada atau telah dipindahkan."
+
+[404_title]
+other = "Halaman Tidak Ditemukan :("
+
+[browse]
+other = "Jelajahi"
+
+[chapter_next]
+other = "Berikutnya"
+
+[chapter_previous]
+other = "Sebelumnya"
+
+[desc]
+other = """
+Selamat datang di website saya, di sini Anda dapat menemukan sebagian besar artikel seputar teknologi, keamanan siber, linux dan juga berbagai projek yg saya kembangkan...
+"""
+
+[edit_page]
+other = "Edit halaman ini di"
+
+[get_started]
+other = "Panduan Contoh"
+
+[last_updated]
+other = "Terakhir diperbarui pada"
+
+[minute]
+one = "menit"
+other = "menit"
+
+[more]
+other = "Selengkapnya"
+
+[on_this_page]
+other = "Di halaman ini"
+
+[projects]
+other = "Projek"
+
+[reading_time]
+other = "Perkiraan waktu membaca"
+
+[search_loading]
+other = "Memuat indeks pencarian..."
+
+[search_no_recent]
+other = "Tidak ada pencarian terbaru"
+
+[search_no_results]
+other = "Hasil Tidak Ditemukan"
+
+[search_placeholder]
+other = "Cari"
+
+[search_title]
+other = "Cari"
+
+[scroll_to_top_title]
+other = "Gulir ke atas"
+
+[video_unsupported]
+other = "Browser Anda tidak mendukung video embedd, Anda bisa <a href=\"{{ .RelPermalink }}\">mendownloadnya</a> dan menontonnya dengan pemutar video player favorit Anda!"

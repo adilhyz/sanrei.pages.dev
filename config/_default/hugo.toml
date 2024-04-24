@@ -1,23 +1,23 @@
-title = "My Docs"
+title = "Adilhyz"
 baseurl = "http://localhost/"
-canonifyURLs = false
+canonifyURLs = false ##old mah true
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-languageCode = "en-US"
-paginate = 10
+languageCode = "id-ID"
+paginate = 6
 rssLimit = 10
 summarylength = 20 # 70 (default)
 
 # Multilingual
-defaultContentLanguage = "en"
+defaultContentLanguage = "id"
 disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) 2020-2024 Hyas"
+copyRight = "Copyright (c) Adilhyz" #Copyright (c) 2020-2024 Hyas
 
 [build.buildStats]
   enable = true
@@ -42,14 +42,14 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
   rel  = "sitemap"
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
 
 [caches]
   [caches.getjson]
     dir = ":cacheDir/:project"
-    maxAge = -1 # "30m"
+    maxAge = -1 # "30m" old mah 10s
 
 [taxonomies]
   contributor = "contributors"
@@ -59,6 +59,7 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
 [permalinks]
   blog = "/blog/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
+# changelog = "/changelog/:filename/"
 # docs = "/docs/1.0/:sections[1:]/:slug/"
 
 [minify.tdewolff.html]
@@ -73,7 +74,7 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
       weight = 100
     [[related.indices]]
       name = "tags"
-      weight = 80
+      weight = 10
     [[related.indices]]
       name = "date"
       weight = 10
