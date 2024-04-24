@@ -15,7 +15,7 @@
   [en.params]
     languageISO = "EN"
     languageTag = "en-US"
-    footer = '<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-umbrella"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 12a8 8 0 0 1 16 0z" /><path d="M12 12v6a2 2 0 0 0 4 0" /></svg> <a class="text-muted" href="https://gohugo.com/">Hugo</a> & <a class="text-muted" href="https://getdoks.org/">Doks</a>'
+    footer = 'Brought to you by <a class="text-muted" href="https://gethyas.com/">Hyas</a>'
     alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Doks version 1.0 just shipped!</a>'
 
 [de]

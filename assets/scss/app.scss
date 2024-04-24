@@ -84,6 +84,8 @@
 @import "layouts/posts";
 @import "layouts/sidebar";
 
+@import "icon-list";
+
 /*
 body {
   background-color: {{ site.Params.doks.backGround }};
@@ -92,3 +94,5 @@ body {
 
 // 9. Custom styles
 @import "common/custom";
+
+// @import "modern-css-reset/src/reset";

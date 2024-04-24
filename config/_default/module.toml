@@ -12,7 +12,6 @@
 # [[mounts]]
 #   source = "node_modules/@hyas/core/assets"
 #   target = "assets"
-#   # excludeFiles = ["scss/app.scss", "js/app.js"]
 
 # [[mounts]]
 #   source = "node_modules/@hyas/images/assets"
@@ -26,15 +25,9 @@
   source = "node_modules/@tabler/icons/icons"
   target = "assets/svgs/tabler-icons"
 
-## aos
-[[mounts]]
-  source = "node_modules/aos/dist/"
-  target = "assets"
-
 [[mounts]]
   source = "assets"
   target = "assets"
-
 
 ## content
 [[mounts]]

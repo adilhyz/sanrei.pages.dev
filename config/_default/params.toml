@@ -1,6 +1,6 @@
 # Hugo
-title = "Adilhyz | サンレイ"
-description = "Linux Enthusiast!"
+title = "サンレイ | Adilhyz"
+description = "Linux Enthusiast!!"
 images = ["cover.png"]
 
 # mainSections
@@ -45,20 +45,19 @@ mainSections = ["blog"] #docs
   bootstrapJavascript = false # false (default) or true
 
   # Nav
-  sectionNav = ["blog"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
+  sectionNav = ["projects"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
   toTopButton = true # false (default) or true
-  # show_to_top_button = true #fix
   breadcrumbTrail = false # false (default) or true
   headlineHash = true # true (default) or false
   scrollSpy = true # true (default) or false
 
   # Multilingual
-  multilingualMode = false # false (default) or true
-  showMissingLanguages = true # whether or not to show untranslated languages in the language menu; true (default) or false
+  multilingualMode = true # false (default) or true
+  showMissingLanguages = false # whether or not to show untranslated languages in the language menu; true (default) or false
 
   # Versioning
   docsVersioning = false # false (default) or true
-  docsVersion = "1.4.1"
+  docsVersion = "1.0"
 
   # UX
   headerBar = true # true (default) or false
@@ -68,7 +67,7 @@ mainSections = ["blog"] #docs
   sectionFooter = true # false (default) or true
 
   # Blog
-  relatedPosts = true # false (default) or true
+  relatedPosts = false # false (default) or true
   imageList = true # true (default) or false
   imageSingle = true # true (default) or false
 
@@ -76,12 +75,12 @@ mainSections = ["blog"] #docs
   editPage = false # false (default) or true
   lastMod = false # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/adilhyz/adilhyz.github.io"
-  docsRepoBranch = "main" # main (default), master, or <branch name>
+  docsRepo = "https://github.com/adilhyz/sanrei.pages.dev"
+  docsRepoBranch = "master" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 
   # SCSS colors
-  backGround = "yellowgreen"
+  # backGround = "yellowgreen"
   ## Dark theme
   # textDark = "#dee2e6" # "#dee2e6" (default), "#dee2e6" (orignal), or custom color
   # accentDark = "#5d2f86" # "#5d2f86" (default), "#5d2f86" (original), or custom color
@@ -105,8 +104,8 @@ mainSections = ["blog"] #docs
 # Images (@hyas/images)
 [hyas_images]
   [hyas_images.defaults]
-    decoding = "auto" # sync, async, or auto (default)
-    fetchpriority = "auto" # high, low, or auto (default) 
+    decoding = "async" # sync, async, or auto (default)
+    fetchpriority = "auto" # high, low, or auto (default)
     loading = "lazy" # eager or lazy (default)
     widths = [480, 576, 768, 1025, 1200, 1440, 1920] # [640, 768, 1024, 1366, 1600, 1920] for example
     sizes = "auto" # 100vw (default), 75vw, or auto for example
@@ -134,20 +133,7 @@ mainSections = ["blog"] #docs
     name = "Adilhyz" # Name of Organization or Person
     sameAs = [] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
     images = ["cover.png"] # ["cover.png"] (default)
-    article = [] # Article sections
+    article = ["blog"] # Article sections
     newsArticle = ["blog"] # NewsArticle sections
     blogPosting = ["blog"] # BlogPosting sections
     product = [] # Product sections
-
-[verification]
-  google = "NHvHI9eXPgvDfd-O1_SPm7KOni4LulB0I0SBjiX_gtg"
-  bing = "CD8D07AFE0E46B67F42B15CA56D28FDE"
-  pinterest = "8bae5246d2483c34b2ffac84a49d27a9"
-  yandex = "c7951f282de9f65b"
-
-[GoogleAnalytics]
-  key = "G-32DSNF8QZY"
-
-[umamiAnalytics]
-  websiteid = "40753570-2c69-4a05-8fb7-13f0b8163a58"
-  # umamidomain = "adilhyz.github.io"

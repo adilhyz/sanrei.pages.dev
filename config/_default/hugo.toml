@@ -1,11 +1,11 @@
 title = "Adilhyz"
-baseurl = "https://adilhyz.github.io/"
-canonifyURLs = true
+baseurl = "http://localhost/"
+canonifyURLs = false ##old mah true
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
 enableEmoji = true
-enableGitInfo = true
+enableGitInfo = false
 enableRobotsTXT = true
 languageCode = "id-ID"
 paginate = 6
@@ -17,7 +17,7 @@ defaultContentLanguage = "id"
 disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) Adilhyz"
+copyRight = "Copyright (c) Adilhyz" #Copyright (c) 2020-2024 Hyas
 
 [build.buildStats]
   enable = true
@@ -49,7 +49,7 @@ copyRight = "Copyright (c) Adilhyz"
 [caches]
   [caches.getjson]
     dir = ":cacheDir/:project"
-    maxAge = "10s" # "30m"
+    maxAge = -1 # "30m" old mah 10s
 
 [taxonomies]
   contributor = "contributors"
@@ -74,7 +74,7 @@ copyRight = "Copyright (c) Adilhyz"
       weight = 100
     [[related.indices]]
       name = "tags"
-      weight = 80
+      weight = 10
     [[related.indices]]
       name = "date"
       weight = 10
