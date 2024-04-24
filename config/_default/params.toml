@@ -1,14 +1,13 @@
 # Hugo
-title = "サンレイ | Adilhyz"
-description = "Linux Enthusiast!!"
+title = "My Docs"
+description = "Congrats on setting up a new Doks project!"
 images = ["cover.png"]
 
 # mainSections
-mainSections = ["blog"] #docs
+mainSections = ["docs"]
 
 [social]
-  # twitter = "getdoks"
-  instagram = "sanrei30_"
+  twitter = "getdoks"
 
 # Doks (@hyas/doks-core)
 [doks]
@@ -45,26 +44,26 @@ mainSections = ["blog"] #docs
   bootstrapJavascript = false # false (default) or true
 
   # Nav
-  sectionNav = ["projects"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
-  toTopButton = true # false (default) or true
+  sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
+  toTopButton = false # false (default) or true
   breadcrumbTrail = false # false (default) or true
   headlineHash = true # true (default) or false
   scrollSpy = true # true (default) or false
 
   # Multilingual
-  multilingualMode = true # false (default) or true
-  showMissingLanguages = false # whether or not to show untranslated languages in the language menu; true (default) or false
+  multilingualMode = false # false (default) or true
+  showMissingLanguages = true # whether or not to show untranslated languages in the language menu; true (default) or false
 
   # Versioning
   docsVersioning = false # false (default) or true
   docsVersion = "1.0"
 
   # UX
-  headerBar = true # true (default) or false
+  headerBar = false # true (default) or false
   backgroundDots = true # true (default) or false
 
   # Homepage
-  sectionFooter = true # false (default) or true
+  sectionFooter = false # false (default) or true
 
   # Blog
   relatedPosts = false # false (default) or true
@@ -75,8 +74,8 @@ mainSections = ["blog"] #docs
   editPage = false # false (default) or true
   lastMod = false # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/adilhyz/sanrei.pages.dev"
-  docsRepoBranch = "master" # main (default), master, or <branch name>
+  docsRepo = "https://github.com/h-enk/doks"
+  docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 
   # SCSS colors
@@ -105,9 +104,9 @@ mainSections = ["blog"] #docs
 [hyas_images]
   [hyas_images.defaults]
     decoding = "async" # sync, async, or auto (default)
-    fetchpriority = "auto" # high, low, or auto (default)
+    fetchpriority = "auto" # high, low, or auto (default) 
     loading = "lazy" # eager or lazy (default)
-    widths = [480, 576, 768, 1025, 1200, 1440, 1920] # [640, 768, 1024, 1366, 1600, 1920] for example
+    widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
     sizes = "auto" # 100vw (default), 75vw, or auto for example
     process = "" # "fill 1600x900" or "fill 2100x900" for example
     lqip = "16x webp q20" # "16x webp q20" or "21x webp q20" for example
@@ -128,12 +127,12 @@ mainSections = ["blog"] #docs
     maskIcon = "mask-icon.svg" # mask-icon.svg (default)
     maskIconColor = "white" # white (default)
   [seo.schemas]
-    type = "Person" # Organization (default) or Person
+    type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "Adilhyz" # Name of Organization or Person
+    name = "Hyas" # Name of Organization or Person
     sameAs = [] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
     images = ["cover.png"] # ["cover.png"] (default)
-    article = ["blog"] # Article sections
-    newsArticle = ["blog"] # NewsArticle sections
+    article = [] # Article sections
+    newsArticle = [] # NewsArticle sections
     blogPosting = ["blog"] # BlogPosting sections
     product = [] # Product sections
